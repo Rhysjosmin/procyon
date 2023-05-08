@@ -41,7 +41,7 @@ CREATE TABLE `crregistration` (
 --
 
 INSERT INTO `crregistration` (`id`, `username`, `password`) VALUES
-(2, 'DEV KALGUTKAR', 2212010),
+(2, 'DEV KALGUTKAR', 2212010), 
 (3, 'HRISHIKESH BHAVE', 2216014),
 (4, 'OM PARAB', 2214033),
 (5, 'LIAM MENDES', 2211011),
@@ -53,11 +53,11 @@ INSERT INTO `crregistration` (`id`, `username`, `password`) VALUES
 (11, 'MELISSA SOLOMON', 2013014),
 (12, 'JASON RODRIGUES', 2014016),
 (13, 'JOHAN ARAUJO', 2121009),
-(14, 'LYZANDER GOMES', 1912025),
-(15, 'YASH PHAL DESSAI', 2022025),
-(16, 'ANIRUDDHA SURAWASE', 2023007),
-(17, 'REEV DSOUZA', 1914036),
-(18, 'SHRUTI SAWANT', 2021037);
+(14, 'LYZANDER GOMES', 1912025), 
+(15, 'YASH PHAL DESSAI', 2022025), 
+(16, 'ANIRUDDHA SURAWASE', 2023007),  
+(17, 'REEV DSOUZA', 1914036), 
+(18, 'SHRUTI SAWANT', 2021037); 
 
 -- --------------------------------------------------------
 
