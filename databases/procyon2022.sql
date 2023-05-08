@@ -41,19 +41,23 @@ CREATE TABLE `crregistration` (
 --
 
 INSERT INTO `crregistration` (`id`, `username`, `password`) VALUES
-(2, 'Reev Dsouza', 1914036),
-(3, 'Yash Atish Kurade ', 2112086),
-(4, 'Leon Menezes', 1814033),
-(5, 'Veron Conceicao Dias ', 1912110),
-(6, 'Kritha Rajan', 2011008),
-(7, 'Keenan Q.V. C. Cardozo', 1812013),
-(8, 'Aastik  Salaskar', 2111002),
-(9, 'Mohmmed Irfan D', 1912027),
-(10, 'Aadarsh Chodankar ', 2012001),
-(11, 'Gul Ahmed Shaikh', 2021035),
-(12, 'Aires Joe Sousa ', 2112003),
-(13, 'Vadiraj Inamdar', 2014059),
-(14, 'Kuldeep Naik ', 1812079);
+(2, 'DEV KALGUTKAR', 2212000),
+(3, 'HRISHIKESH BHAVE', 2216014),
+(4, 'OM PARAB', 2214033),
+(5, 'LIAM MENDES', 2211011),
+(6, 'NEHA BHANDARI', 2112068),
+(7, 'SACHI BOKADE', 2113016),
+(8, 'PRANAV NAIK', 2114035),
+(9, 'BHAGYASHREE KUDALKAR', 2111008),
+(10, 'AADARSH CHODANKAR', 2012001),
+(11, 'MELISSA SOLOMON', 2013014),
+(12, 'JASON RODRIGUES', 2014016),
+(13, 'JOHAN ARAUJO', 2121009),
+(14, 'LYZANDER GOMES', 1912025),
+(15, 'YASH PHAL DESSAI', 2022025),
+(16, 'ANIRUDDHA SURAWASE', 2023007),
+(17, 'REEV DSOUZA', 1914036),
+(18, 'SHRUTI SAWANT', 2021037);
 
 -- --------------------------------------------------------
 
