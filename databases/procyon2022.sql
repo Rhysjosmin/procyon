@@ -41,7 +41,7 @@ CREATE TABLE `crregistration` (
 --
 
 INSERT INTO `crregistration` (`id`, `username`, `password`) VALUES
-(2, 'DEV KALGUTKAR', 2212000),
+(2, 'DEV KALGUTKAR', 2212010),
 (3, 'HRISHIKESH BHAVE', 2216014),
 (4, 'OM PARAB', 2214033),
 (5, 'LIAM MENDES', 2211011),
