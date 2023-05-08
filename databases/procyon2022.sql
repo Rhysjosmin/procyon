@@ -108,7 +108,7 @@ ALTER TABLE `deptregistrations`
 -- AUTO_INCREMENT for table `crregistration`
 --
 ALTER TABLE `crregistration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `deptregistrations`
