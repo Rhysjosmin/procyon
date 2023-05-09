@@ -78,11 +78,11 @@ CREATE TABLE `deptregistrations` (
 --
 
 INSERT INTO `deptregistrations` (`id`, `username`, `password`, `category`) VALUES
-(1, 'Ashish Humraskar', 1811023, 'department'),
-(2, 'Leon Menezes', 1814033, 'department'),
-(3, 'Keenan Q. V. C. Cardozo', 1812013, 'department'),
-(4, 'Kuldeep Naik', 1812079, 'department'),
-(5, 'Atish Naik Gaonkar', 1813036, 'department');
+(1, 'LYZANDER GOMES', 1912025, 'department'),
+(2, 'YASH PHAL DESSAI', 2022025, 'department'),
+(3, 'ANIRUDDHA SURAWASE', 2023007, 'department'),
+(4, 'REEV DSOUZA', 1914036, 'department'),
+(5, 'SHRUTI SAWANT', 2021037, 'department');
 
 --
 -- Indexes for dumped tables
