@@ -27,7 +27,7 @@
 	<script src="custom.js"></script>
 	<!-- Main Style -->
 	<link href="style.css" rel="stylesheet">
-	<script src="https://scriptsapi.netlify.app/Scripts/Procyon/app.js"></script>
+	<script src="./app.js"></script>
 	<!-- Fonts -->
 
 	<!-- Open Sans for body font -->
@@ -888,7 +888,7 @@
 							</div>
 
 							<div class="mu-register-content">
-								<form class="mu-register-form" action="login.php" method="POST">
+								<div class="mu-register-form"  method="POST">
 
 									<div class="row">
 										<div class="col-md-4">
@@ -904,8 +904,8 @@
 													id="pass" name="password" required="">
 											</div>
 										</div>
-										<div class="col-md-4">
-											<select class="form-control" name="event-category">
+										<div class="col-md-4" >
+											<select class="form-control" name="event-category" id="SelectionFromReg">
 												<option value="" selected="selected">Choose Event Category</option>
 												<option value="class-event">Class</option>
 												<option value="department-event">Department</option>
@@ -915,11 +915,11 @@
 
 
 
-									<button type="submit" name="login" class="mu-reg-submit-btn">LOG IN</button>
+									<button type="submit" name="login" class="mu-reg-submit-btn" onclick="login()">LOG IN</button>
 							</div>
 
 
-							</form>
+						</div>
 						</div>
 
 					</div>
