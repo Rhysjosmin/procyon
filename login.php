@@ -26,7 +26,9 @@ if(isset($_POST['login']))
         $num1 = mysqli_num_rows($run1);
         if(mysqli_num_rows($run1)==1)
         {
-          echo "Kindly Note: Registrations are closed for all the events now!";
+            header("Location:https://docs.google.com/spreadsheets/d/1jC9BWDi-06lxcEn524T3UE_5MGSSvrF9V1DWddJQnA0/edit?pli=1#gid=0");
+            
+          //echo "Kindly Note: Registrations are closed for all the events now!";
 
             $_SESSION['username']=$user_name;//here session is used and value of $user_email store in $_SESSION.
 
@@ -43,7 +45,8 @@ if(isset($_POST['login']))
         $run2=mysqli_query($con,$query);
         if(mysqli_num_rows($run2)==1)
         {
-         echo "Kindly Note: Registrations are closed for all the events now!";
+            header("Location:https://docs.google.com/spreadsheets/d/1jMYywzICmj83CzKZqAP09U0PHb-W6AVwgyNFLG4icIM/edit#gid=0");
+         //echo "Kindly Note: Registrations are closed for all the events now!";
            $_SESSION['username']=$user_name;
         }
         else{
