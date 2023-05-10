@@ -38,6 +38,10 @@ def login(name, password,choice):
             else:
                 return json.dumps({'Response':"OK",'Link':DEPT_REG})
     return json.dumps({'Response':"NotOK"})
+  
+  @app.route('/DoDrugs')
+  def DoDrugs():
+    return 'Dont Do Drugs'
 
 if __name__ == '__main__':
     app.run(debug=True)
